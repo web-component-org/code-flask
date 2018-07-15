@@ -25,14 +25,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/web-components-org/code-flask.git"
+    "url": "git+https://github.com/web-component-org/code-flask.git"
   },
   "author": "Colton Colcleasure <colshacol@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/web-components-org/code-flask"
+    "url": "https://github.com/web-component-org/code-flask"
   },
-  "homepage": "https://github.com/web-components-org/code-flask",
+  "homepage": "https://github.com/web-component-org/code-flask",
   "jest": {
     "transform": {
       "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"
