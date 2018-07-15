@@ -1,0 +1,49 @@
+{
+  "name": "@web-component/code-flask",
+  "version": "0.0.1",
+  "description": "A web-component for easily creating code editors with CodeFlask.",
+  "module": "dist/esm/index.js",
+  "main": "dist/index.js",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "jest",
+    "test.watch": "jest --watch"
+  },
+  "dependencies": {
+    "codeflask": "^1.1.0"
+  },
+  "devDependencies": {
+    "@stencil/core": "^0.10.0",
+    "@types/jest": "^21.1.1",
+    "jest": "^21.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-components-org/code-flask.git"
+  },
+  "author": "Colton Colcleasure <colshacol@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/web-components-org/code-flask"
+  },
+  "homepage": "https://github.com/web-components-org/code-flask",
+  "jest": {
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json",
+      "jsx"
+    ]
+  }
+}
